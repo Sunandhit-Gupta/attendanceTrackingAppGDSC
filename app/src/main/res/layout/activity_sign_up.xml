@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wall">
+
+    <EditText
+        android:id="@+id/singupEmailField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/text_bgrd"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:id="@+id/signupPasswordField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_bgrd"/>
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:id="@+id/signupConfirmPasswordField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_bgrd"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/signupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bgrd"
+        android:fontFamily="@font/crazy_font"/>
+
+    <TextView
+        android:id="@+id/gotologinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="already have an account?"
+        android:textColor="@color/yellow"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/wall"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/subjectNameField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_bgrd"
+        android:hint="Subject Name"
+        android:inputType="text"
+        android:padding="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bgrd"
+        android:fontFamily="@font/crazy_font"/>
+</LinearLayout>
